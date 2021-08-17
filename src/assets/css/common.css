@@ -1,0 +1,104 @@
+.relative {
+	position: relative;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.flex-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+	align-items: center;
+}
+
+.js-flex-start {
+    justify-content: flex-start;
+}
+
+.js-flex-end {
+    justify-content: flex-end;
+}
+
+.js-space-between {
+    justify-content: space-between;
+}
+
+.js-space-around {
+    justify-content: space-around;
+}
+
+.al-flex-start {
+	align-items: flex-start;
+}
+
+.hide {
+    display: none;
+}
+
+.w-100 {
+	width: 100%;
+}
+
+.h-100 {
+	height: 100%;
+}
+
+.mb-05 {
+	margin-bottom: .5rem;
+}
+.mr-05 {
+	margin-right: .5rem;
+}
+.mt-05 {
+	margin-top: .5rem;
+}
+.mt-1 {
+	margin-top: 1rem;
+}
+.mt-2 {
+	margin-top: 2rem;
+}
+.mt-3 {
+	margin-top: 3rem;
+}
+.mt-5 {
+	margin-top: 5rem;
+}
+.mt-10 {
+	margin-top: 10rem;
+}
+
+.greenAmount{
+	color: #00A054
+}
+.redAmount{
+	color:  #E71414
+}
+
+.loading-spinner {
+	margin-top: -100%;
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+	background: url("../../assets/images/loading_spinner.gif");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+
+@keyframes fadeIn {
+	0% {opacity:0;}
+	100% {opacity:1;}
+}
+@keyframes fadeOut {
+	0% {opacity:1;}
+	100% {opacity:0;}
+}
